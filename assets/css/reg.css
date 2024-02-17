@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.reg_container{
+	margin: 100px auto;
+	width: 500px;
+	min-height: 100px;
+	border: none;
+	padding: 20px;
+	border-radius: 15px;
+	backdrop-filter: blur(5px);
+	background-image: url("https://downloadwap.com/thumbs2/wallpapers/p2ls/2019/patterns/26/a875c69013002082.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.reg_container input{
+	width: 200px;
+	height: 35px;
+	padding: 5px;
+	border: 1px solid silver;
+	background-color: white;
+	border-radius: 5px;
+	margin: 5px auto;
+	font-size: 16px;
+	outline : none;
+}
+.reg_container button{
+	margin-top: 10px;
+	min-width: 100px;
+	height: 35px;
+	padding: 5px;
+	border: 1px solid silver;
+	border-radius: 5px;
+	background-color: white;
+	font-size: 16px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.reg_container button:hover{
+	background-color: #ccc;
+}
+.reg_container p2{
+	font-size: 42px;
+	color: white;
+}
+.reg_container a{
+	color: white;
+}
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+	.reg_container{
+		width: 85%;
+		display: table;
+	}
+	.reg_container input{
+		width: 60%;
+	}
+
+}
